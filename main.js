@@ -6,7 +6,7 @@ function getFetch(){
     console.log(choice)
     
     const url = `https://api.nasa.gov/planetary/apod?
-    api_key=zU71SV2z8UAS2tpSRxtx9Ii4giGUAk6QIufK4bCn&date=${choice}`
+    api_key=oMah2xrNvC7as8C1BH43Q0sxez5zBTXtf2Qc0aeR&date=${choice}`
 
     fetch(url)
         .then(res => res.json())  // parse response as JSON
